@@ -1,0 +1,1016 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		201C7FE91D007B25009EE8ED /* notificaciones.db in Resources */ = {isa = PBXBuildFile; fileRef = 20DDFFED1CFDBB0200DE9EBB /* notificaciones.db */; };
+		204FA5EA1CFCB66D00FE3993 /* Notificaciones.m in Sources */ = {isa = PBXBuildFile; fileRef = 204FA5E91CFCB66D00FE3993 /* Notificaciones.m */; };
+		204FA5ED1CFCBE8100FE3993 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 204FA5EC1CFCBE8100FE3993 /* DBManager.m */; };
+		20E06CB11CFCAB41005C9129 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E06CB01CFCAB41005C9129 /* libsqlite3.tbd */; };
+		3C4101714C1D1D65BCD4101E /* libPods-FocusMediaUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9504C4E480A48FAAAAF36495 /* libPods-FocusMediaUITests.a */; };
+		83145DB61CD2CD690025ADFF /* focus-footer.png in Resources */ = {isa = PBXBuildFile; fileRef = 83145DB51CD2CD690025ADFF /* focus-footer.png */; };
+		8338E9CB1C8BB899001F5BC0 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 8338E9CA1C8BB899001F5BC0 /* Home.m */; };
+		8338E9CE1C8BB95A001F5BC0 /* SharedNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8338E9CD1C8BB95A001F5BC0 /* SharedNavigationController.m */; };
+		8338E9D01C8BBBA3001F5BC0 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8338E9CF1C8BBBA3001F5BC0 /* FontAwesome.otf */; };
+		8353EC7C1C8BA4230028F839 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8353EC7B1C8BA4230028F839 /* main.m */; };
+		8353EC7F1C8BA4230028F839 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8353EC7E1C8BA4230028F839 /* AppDelegate.m */; };
+		8353EC851C8BA4230028F839 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8353EC831C8BA4230028F839 /* Main.storyboard */; };
+		8353EC871C8BA4230028F839 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8353EC861C8BA4230028F839 /* Assets.xcassets */; };
+		8353EC951C8BA4240028F839 /* FocusMediaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8353EC941C8BA4240028F839 /* FocusMediaTests.m */; };
+		8353ECA01C8BA4240028F839 /* FocusMediaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8353EC9F1C8BA4240028F839 /* FocusMediaUITests.m */; };
+		83C563321CA82D38005FB6E5 /* CatalogoNovedades.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C563281CA82D37005FB6E5 /* CatalogoNovedades.m */; };
+		83C563331CA82D38005FB6E5 /* CatalogoInformacion.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C5632A1CA82D38005FB6E5 /* CatalogoInformacion.m */; };
+		83C563341CA82D38005FB6E5 /* CatalogoAsistentes.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C5632C1CA82D38005FB6E5 /* CatalogoAsistentes.m */; };
+		83C563351CA82D38005FB6E5 /* BajarYDescomprimir.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C5632E1CA82D38005FB6E5 /* BajarYDescomprimir.m */; };
+		83C563361CA82D38005FB6E5 /* AsistentesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C563301CA82D38005FB6E5 /* AsistentesCell.m */; };
+		83C563381CA83EC3005FB6E5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83C563371CA83EC3005FB6E5 /* GoogleService-Info.plist */; };
+		83DACF1F1CC6EA64000EFF27 /* Publicidades.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DACF1E1CC6EA64000EFF27 /* Publicidades.m */; };
+		83DACF291CC90C0E000EFF27 /* AgendaSimple.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DACF271CC90C0E000EFF27 /* AgendaSimple.m */; };
+		83DACF2A1CC90C0E000EFF27 /* AgendaSimple.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83DACF281CC90C0E000EFF27 /* AgendaSimple.xib */; };
+		83F08B8A1C8CAD1700DAB7E0 /* Header.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F08B891C8CAD1700DAB7E0 /* Header.m */; };
+		83F08B8C1C8CAED800DAB7E0 /* Recursos in Resources */ = {isa = PBXBuildFile; fileRef = 83F08B8B1C8CAED800DAB7E0 /* Recursos */; };
+		83F08B8F1C8CDF1200DAB7E0 /* NavigationMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F08B8E1C8CDF1200DAB7E0 /* NavigationMenu.m */; };
+		83F08B951C8CEE1600DAB7E0 /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F08B941C8CEE1600DAB7E0 /* MenuItem.m */; };
+		83F08B981C8D2ABD00DAB7E0 /* Bienvenida.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F08B971C8D2ABD00DAB7E0 /* Bienvenida.m */; };
+		83F08B9B1C8D2FC800DAB7E0 /* Utiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F08B9A1C8D2FC800DAB7E0 /* Utiles.m */; };
+		83F08B9E1C8E173100DAB7E0 /* Planos.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F08B9D1C8E173100DAB7E0 /* Planos.m */; };
+		83F08BA11C8E48CD00DAB7E0 /* Agenda.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F08BA01C8E48CD00DAB7E0 /* Agenda.m */; };
+		83F08BA51C8E51FF00DAB7E0 /* AgendaAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F08BA41C8E51FF00DAB7E0 /* AgendaAdapter.m */; };
+		83F08BA91C8E552200DAB7E0 /* Dia.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F08BA81C8E552200DAB7E0 /* Dia.m */; };
+		83F08BAC1C8E553800DAB7E0 /* Actividad.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F08BAB1C8E553800DAB7E0 /* Actividad.m */; };
+		83F08BAF1C8E554300DAB7E0 /* Detalle.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F08BAE1C8E554300DAB7E0 /* Detalle.m */; };
+		83F08BB21C8E583F00DAB7E0 /* Auspiciantes.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F08BB11C8E583F00DAB7E0 /* Auspiciantes.m */; };
+		83F08BB51C8F885400DAB7E0 /* AgendaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F08BB41C8F885400DAB7E0 /* AgendaCell.m */; };
+		83F08BBA1C91C0C200DAB7E0 /* AgendaDetalle.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F08BB91C91C0C200DAB7E0 /* AgendaDetalle.m */; };
+		83F08BBD1C91EB4D00DAB7E0 /* DetalleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F08BBC1C91EB4D00DAB7E0 /* DetalleCell.m */; };
+		83F08BC61C99E28300DAB7E0 /* CatalogoAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F08BC51C99E28300DAB7E0 /* CatalogoAdapter.m */; };
+		83F08BC91C99E29500DAB7E0 /* Empresa.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F08BC81C99E29500DAB7E0 /* Empresa.m */; };
+		83F08BCC1C99E2A400DAB7E0 /* Asistentes.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F08BCB1C99E2A400DAB7E0 /* Asistentes.m */; };
+		83F08BCF1C99EA3E00DAB7E0 /* Catalogo.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F08BCE1C99EA3E00DAB7E0 /* Catalogo.m */; };
+		9E215A4DBF1FB6A6BE3358E1 /* libPods-FocusMediaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F3CDBE7ED6674D7E2CE5EF /* libPods-FocusMediaTests.a */; };
+		C2484AAADB23F7DD05CCE666 /* libPods-FocusMedia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E847F0D5288C2408D1B57C14 /* libPods-FocusMedia.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8353EC911C8BA4240028F839 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8353EC6F1C8BA4230028F839 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8353EC761C8BA4230028F839;
+			remoteInfo = FocusMedia;
+		};
+		8353EC9C1C8BA4240028F839 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8353EC6F1C8BA4230028F839 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8353EC761C8BA4230028F839;
+			remoteInfo = FocusMedia;
+		};
+		83C342391CAF7B5400841B4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83C342331CAF7B5300841B4C /* iPhone.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D6058910D05DD3D006BFB54;
+			remoteInfo = iPhone;
+		};
+		83C3423B1CAF7B5400841B4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83C342331CAF7B5300841B4C /* iPhone.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B55B60C70F765BB00064029C;
+			remoteInfo = Tests;
+		};
+		83C3423D1CAF7B5400841B4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83C342331CAF7B5300841B4C /* iPhone.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B576D72311C7F34D0059B815;
+			remoteInfo = iPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		204FA5E81CFCB66D00FE3993 /* Notificaciones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Notificaciones.h; path = Clases/Notificaciones.h; sourceTree = "<group>"; };
+		204FA5E91CFCB66D00FE3993 /* Notificaciones.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Notificaciones.m; path = Clases/Notificaciones.m; sourceTree = "<group>"; };
+		204FA5EB1CFCBE8100FE3993 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBManager.h; path = Util/DBManager.h; sourceTree = "<group>"; };
+		204FA5EC1CFCBE8100FE3993 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBManager.m; path = Util/DBManager.m; sourceTree = "<group>"; };
+		20DDFFED1CFDBB0200DE9EBB /* notificaciones.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = notificaciones.db; sourceTree = "<group>"; };
+		20E06CB01CFCAB41005C9129 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3AA194CEED87B4AF60A6DB78 /* Pods-FocusMediaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocusMediaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FocusMediaUITests/Pods-FocusMediaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6D179B2FE75B7C1DFCFD4CCA /* Pods-FocusMedia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocusMedia.release.xcconfig"; path = "Pods/Target Support Files/Pods-FocusMedia/Pods-FocusMedia.release.xcconfig"; sourceTree = "<group>"; };
+		6D54F7C40E392D1E2DF40E90 /* Pods-FocusMedia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocusMedia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FocusMedia/Pods-FocusMedia.debug.xcconfig"; sourceTree = "<group>"; };
+		6DE73EEBF9CB2E558140DD69 /* Pods-FocusMediaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocusMediaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FocusMediaUITests/Pods-FocusMediaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		83145DB51CD2CD690025ADFF /* focus-footer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "focus-footer.png"; sourceTree = "<group>"; };
+		8338E9C91C8BB899001F5BC0 /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Home.h; path = Clases/Home.h; sourceTree = "<group>"; };
+		8338E9CA1C8BB899001F5BC0 /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Home.m; path = Clases/Home.m; sourceTree = "<group>"; };
+		8338E9CC1C8BB95A001F5BC0 /* SharedNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SharedNavigationController.h; path = Util/SharedNavigationController.h; sourceTree = "<group>"; };
+		8338E9CD1C8BB95A001F5BC0 /* SharedNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SharedNavigationController.m; path = Util/SharedNavigationController.m; sourceTree = "<group>"; };
+		8338E9CF1C8BBBA3001F5BC0 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		8353EC771C8BA4230028F839 /* FocusMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8353EC7B1C8BA4230028F839 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8353EC7D1C8BA4230028F839 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8353EC7E1C8BA4230028F839 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8353EC841C8BA4230028F839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8353EC861C8BA4230028F839 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8353EC8B1C8BA4230028F839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8353EC901C8BA4240028F839 /* FocusMediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocusMediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8353EC941C8BA4240028F839 /* FocusMediaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FocusMediaTests.m; sourceTree = "<group>"; };
+		8353EC961C8BA4240028F839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8353EC9B1C8BA4240028F839 /* FocusMediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocusMediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8353EC9F1C8BA4240028F839 /* FocusMediaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FocusMediaUITests.m; sourceTree = "<group>"; };
+		8353ECA11C8BA4240028F839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C342331CAF7B5300841B4C /* iPhone.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iPhone.xcodeproj; path = "../../../../Downloads/pokeb-asi-http-request-9051a33/iPhone.xcodeproj"; sourceTree = "<group>"; };
+		83C3423F1CAF7B5F00841B4C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		83C342411CAF7B7B00841B4C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		83C342431CAF7BA700841B4C /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		83C563281CA82D37005FB6E5 /* CatalogoNovedades.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CatalogoNovedades.m; path = Clases/CatalogoNovedades.m; sourceTree = "<group>"; };
+		83C563291CA82D38005FB6E5 /* CatalogoNovedades.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CatalogoNovedades.h; path = Clases/CatalogoNovedades.h; sourceTree = "<group>"; };
+		83C5632A1CA82D38005FB6E5 /* CatalogoInformacion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CatalogoInformacion.m; path = Clases/CatalogoInformacion.m; sourceTree = "<group>"; };
+		83C5632B1CA82D38005FB6E5 /* CatalogoInformacion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CatalogoInformacion.h; path = Clases/CatalogoInformacion.h; sourceTree = "<group>"; };
+		83C5632C1CA82D38005FB6E5 /* CatalogoAsistentes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CatalogoAsistentes.m; path = Clases/CatalogoAsistentes.m; sourceTree = "<group>"; };
+		83C5632D1CA82D38005FB6E5 /* CatalogoAsistentes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CatalogoAsistentes.h; path = Clases/CatalogoAsistentes.h; sourceTree = "<group>"; };
+		83C5632E1CA82D38005FB6E5 /* BajarYDescomprimir.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BajarYDescomprimir.m; path = Clases/BajarYDescomprimir.m; sourceTree = "<group>"; };
+		83C5632F1CA82D38005FB6E5 /* BajarYDescomprimir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BajarYDescomprimir.h; path = Clases/BajarYDescomprimir.h; sourceTree = "<group>"; };
+		83C563301CA82D38005FB6E5 /* AsistentesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsistentesCell.m; path = Clases/AsistentesCell.m; sourceTree = "<group>"; };
+		83C563311CA82D38005FB6E5 /* AsistentesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsistentesCell.h; path = Clases/AsistentesCell.h; sourceTree = "<group>"; };
+		83C563371CA83EC3005FB6E5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		83DACF1D1CC6EA64000EFF27 /* Publicidades.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Publicidades.h; path = Clases/Publicidades.h; sourceTree = "<group>"; };
+		83DACF1E1CC6EA64000EFF27 /* Publicidades.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Publicidades.m; path = Clases/Publicidades.m; sourceTree = "<group>"; };
+		83DACF261CC90C0E000EFF27 /* AgendaSimple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgendaSimple.h; sourceTree = "<group>"; };
+		83DACF271CC90C0E000EFF27 /* AgendaSimple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgendaSimple.m; sourceTree = "<group>"; };
+		83DACF281CC90C0E000EFF27 /* AgendaSimple.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AgendaSimple.xib; sourceTree = "<group>"; };
+		83F08B881C8CAD1700DAB7E0 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Header.h; path = Util/Header.h; sourceTree = "<group>"; };
+		83F08B891C8CAD1700DAB7E0 /* Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Header.m; path = Util/Header.m; sourceTree = "<group>"; };
+		83F08B8B1C8CAED800DAB7E0 /* Recursos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Recursos; sourceTree = "<group>"; };
+		83F08B8D1C8CDF1200DAB7E0 /* NavigationMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavigationMenu.h; path = Util/NavigationMenu.h; sourceTree = "<group>"; };
+		83F08B8E1C8CDF1200DAB7E0 /* NavigationMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavigationMenu.m; path = Util/NavigationMenu.m; sourceTree = "<group>"; };
+		83F08B931C8CEE1600DAB7E0 /* MenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItem.h; sourceTree = "<group>"; };
+		83F08B941C8CEE1600DAB7E0 /* MenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItem.m; sourceTree = "<group>"; };
+		83F08B961C8D2ABD00DAB7E0 /* Bienvenida.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bienvenida.h; path = Clases/Bienvenida.h; sourceTree = "<group>"; };
+		83F08B971C8D2ABD00DAB7E0 /* Bienvenida.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bienvenida.m; path = Clases/Bienvenida.m; sourceTree = "<group>"; };
+		83F08B991C8D2FC800DAB7E0 /* Utiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utiles.h; path = Util/Utiles.h; sourceTree = "<group>"; };
+		83F08B9A1C8D2FC800DAB7E0 /* Utiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utiles.m; path = Util/Utiles.m; sourceTree = "<group>"; };
+		83F08B9C1C8E173100DAB7E0 /* Planos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Planos.h; path = Clases/Planos.h; sourceTree = "<group>"; };
+		83F08B9D1C8E173100DAB7E0 /* Planos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Planos.m; path = Clases/Planos.m; sourceTree = "<group>"; };
+		83F08B9F1C8E48CD00DAB7E0 /* Agenda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Agenda.h; path = Clases/Agenda.h; sourceTree = "<group>"; };
+		83F08BA01C8E48CD00DAB7E0 /* Agenda.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Agenda.m; path = Clases/Agenda.m; sourceTree = "<group>"; };
+		83F08BA31C8E51FF00DAB7E0 /* AgendaAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgendaAdapter.h; sourceTree = "<group>"; };
+		83F08BA41C8E51FF00DAB7E0 /* AgendaAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgendaAdapter.m; sourceTree = "<group>"; };
+		83F08BA71C8E552200DAB7E0 /* Dia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dia.h; sourceTree = "<group>"; };
+		83F08BA81C8E552200DAB7E0 /* Dia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dia.m; sourceTree = "<group>"; };
+		83F08BAA1C8E553800DAB7E0 /* Actividad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Actividad.h; sourceTree = "<group>"; };
+		83F08BAB1C8E553800DAB7E0 /* Actividad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Actividad.m; sourceTree = "<group>"; };
+		83F08BAD1C8E554300DAB7E0 /* Detalle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Detalle.h; sourceTree = "<group>"; };
+		83F08BAE1C8E554300DAB7E0 /* Detalle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Detalle.m; sourceTree = "<group>"; };
+		83F08BB01C8E583F00DAB7E0 /* Auspiciantes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Auspiciantes.h; sourceTree = "<group>"; };
+		83F08BB11C8E583F00DAB7E0 /* Auspiciantes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Auspiciantes.m; sourceTree = "<group>"; };
+		83F08BB31C8F885300DAB7E0 /* AgendaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AgendaCell.h; path = Util/AgendaCell.h; sourceTree = "<group>"; };
+		83F08BB41C8F885400DAB7E0 /* AgendaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AgendaCell.m; path = Util/AgendaCell.m; sourceTree = "<group>"; };
+		83F08BB81C91C0C200DAB7E0 /* AgendaDetalle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AgendaDetalle.h; path = Clases/AgendaDetalle.h; sourceTree = "<group>"; };
+		83F08BB91C91C0C200DAB7E0 /* AgendaDetalle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AgendaDetalle.m; path = Clases/AgendaDetalle.m; sourceTree = "<group>"; };
+		83F08BBB1C91EB4C00DAB7E0 /* DetalleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetalleCell.h; path = Clases/DetalleCell.h; sourceTree = "<group>"; };
+		83F08BBC1C91EB4D00DAB7E0 /* DetalleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetalleCell.m; path = Clases/DetalleCell.m; sourceTree = "<group>"; };
+		83F08BC41C99E28300DAB7E0 /* CatalogoAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalogoAdapter.h; sourceTree = "<group>"; };
+		83F08BC51C99E28300DAB7E0 /* CatalogoAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalogoAdapter.m; sourceTree = "<group>"; };
+		83F08BC71C99E29500DAB7E0 /* Empresa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Empresa.h; sourceTree = "<group>"; };
+		83F08BC81C99E29500DAB7E0 /* Empresa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Empresa.m; sourceTree = "<group>"; };
+		83F08BCA1C99E2A400DAB7E0 /* Asistentes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Asistentes.h; sourceTree = "<group>"; };
+		83F08BCB1C99E2A400DAB7E0 /* Asistentes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Asistentes.m; sourceTree = "<group>"; };
+		83F08BCD1C99EA3E00DAB7E0 /* Catalogo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Catalogo.h; path = Clases/Catalogo.h; sourceTree = "<group>"; };
+		83F08BCE1C99EA3E00DAB7E0 /* Catalogo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Catalogo.m; path = Clases/Catalogo.m; sourceTree = "<group>"; };
+		9504C4E480A48FAAAAF36495 /* libPods-FocusMediaUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FocusMediaUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F3CDBE7ED6674D7E2CE5EF /* libPods-FocusMediaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FocusMediaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E847F0D5288C2408D1B57C14 /* libPods-FocusMedia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FocusMedia.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F688CE6337BD71C9729123D0 /* Pods-FocusMediaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocusMediaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FocusMediaTests/Pods-FocusMediaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD82337C0FD5AE5505CEE157 /* Pods-FocusMediaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocusMediaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FocusMediaTests/Pods-FocusMediaTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8353EC741C8BA4230028F839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E06CB11CFCAB41005C9129 /* libsqlite3.tbd in Frameworks */,
+				C2484AAADB23F7DD05CCE666 /* libPods-FocusMedia.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8353EC8D1C8BA4240028F839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E215A4DBF1FB6A6BE3358E1 /* libPods-FocusMediaTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8353EC981C8BA4240028F839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4101714C1D1D65BCD4101E /* libPods-FocusMediaUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07B984C5F2FD35EAA790DA3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D54F7C40E392D1E2DF40E90 /* Pods-FocusMedia.debug.xcconfig */,
+				6D179B2FE75B7C1DFCFD4CCA /* Pods-FocusMedia.release.xcconfig */,
+				F688CE6337BD71C9729123D0 /* Pods-FocusMediaTests.debug.xcconfig */,
+				FD82337C0FD5AE5505CEE157 /* Pods-FocusMediaTests.release.xcconfig */,
+				6DE73EEBF9CB2E558140DD69 /* Pods-FocusMediaUITests.debug.xcconfig */,
+				3AA194CEED87B4AF60A6DB78 /* Pods-FocusMediaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8338E9C71C8BB855001F5BC0 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				8338E9CC1C8BB95A001F5BC0 /* SharedNavigationController.h */,
+				8338E9CD1C8BB95A001F5BC0 /* SharedNavigationController.m */,
+				83F08B881C8CAD1700DAB7E0 /* Header.h */,
+				83F08B891C8CAD1700DAB7E0 /* Header.m */,
+				83F08B8D1C8CDF1200DAB7E0 /* NavigationMenu.h */,
+				83F08B8E1C8CDF1200DAB7E0 /* NavigationMenu.m */,
+				83F08B931C8CEE1600DAB7E0 /* MenuItem.h */,
+				83F08B941C8CEE1600DAB7E0 /* MenuItem.m */,
+				83F08B991C8D2FC800DAB7E0 /* Utiles.h */,
+				83F08B9A1C8D2FC800DAB7E0 /* Utiles.m */,
+				83F08BB31C8F885300DAB7E0 /* AgendaCell.h */,
+				83F08BB41C8F885400DAB7E0 /* AgendaCell.m */,
+				204FA5EB1CFCBE8100FE3993 /* DBManager.h */,
+				204FA5EC1CFCBE8100FE3993 /* DBManager.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		8338E9C81C8BB874001F5BC0 /* Clases */ = {
+			isa = PBXGroup;
+			children = (
+				83C563281CA82D37005FB6E5 /* CatalogoNovedades.m */,
+				83C563291CA82D38005FB6E5 /* CatalogoNovedades.h */,
+				83C5632A1CA82D38005FB6E5 /* CatalogoInformacion.m */,
+				83C5632B1CA82D38005FB6E5 /* CatalogoInformacion.h */,
+				83C5632C1CA82D38005FB6E5 /* CatalogoAsistentes.m */,
+				83C5632D1CA82D38005FB6E5 /* CatalogoAsistentes.h */,
+				83C5632E1CA82D38005FB6E5 /* BajarYDescomprimir.m */,
+				83C5632F1CA82D38005FB6E5 /* BajarYDescomprimir.h */,
+				83C563301CA82D38005FB6E5 /* AsistentesCell.m */,
+				83C563311CA82D38005FB6E5 /* AsistentesCell.h */,
+				8338E9C91C8BB899001F5BC0 /* Home.h */,
+				8338E9CA1C8BB899001F5BC0 /* Home.m */,
+				83F08B961C8D2ABD00DAB7E0 /* Bienvenida.h */,
+				83F08B971C8D2ABD00DAB7E0 /* Bienvenida.m */,
+				83F08B9C1C8E173100DAB7E0 /* Planos.h */,
+				83F08B9D1C8E173100DAB7E0 /* Planos.m */,
+				83F08B9F1C8E48CD00DAB7E0 /* Agenda.h */,
+				83F08BA01C8E48CD00DAB7E0 /* Agenda.m */,
+				83F08BB81C91C0C200DAB7E0 /* AgendaDetalle.h */,
+				83F08BB91C91C0C200DAB7E0 /* AgendaDetalle.m */,
+				83F08BBB1C91EB4C00DAB7E0 /* DetalleCell.h */,
+				83F08BBC1C91EB4D00DAB7E0 /* DetalleCell.m */,
+				83F08BCD1C99EA3E00DAB7E0 /* Catalogo.h */,
+				83F08BCE1C99EA3E00DAB7E0 /* Catalogo.m */,
+				83DACF1D1CC6EA64000EFF27 /* Publicidades.h */,
+				83DACF1E1CC6EA64000EFF27 /* Publicidades.m */,
+				204FA5E81CFCB66D00FE3993 /* Notificaciones.h */,
+				204FA5E91CFCB66D00FE3993 /* Notificaciones.m */,
+			);
+			name = Clases;
+			sourceTree = "<group>";
+		};
+		8353EC6E1C8BA4230028F839 = {
+			isa = PBXGroup;
+			children = (
+				8353EC791C8BA4230028F839 /* FocusMedia */,
+				8353EC931C8BA4240028F839 /* FocusMediaTests */,
+				8353EC9E1C8BA4240028F839 /* FocusMediaUITests */,
+				8353EC781C8BA4230028F839 /* Products */,
+				B64844F0D207335F4EDB3DCE /* Frameworks */,
+				07B984C5F2FD35EAA790DA3F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		8353EC781C8BA4230028F839 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8353EC771C8BA4230028F839 /* FocusMedia.app */,
+				8353EC901C8BA4240028F839 /* FocusMediaTests.xctest */,
+				8353EC9B1C8BA4240028F839 /* FocusMediaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8353EC791C8BA4230028F839 /* FocusMedia */ = {
+			isa = PBXGroup;
+			children = (
+				20DDFFED1CFDBB0200DE9EBB /* notificaciones.db */,
+				83145DB51CD2CD690025ADFF /* focus-footer.png */,
+				83DACF201CC90BB8000EFF27 /* Celdas */,
+				83F08B8B1C8CAED800DAB7E0 /* Recursos */,
+				83C563371CA83EC3005FB6E5 /* GoogleService-Info.plist */,
+				83F08BA21C8E51C700DAB7E0 /* Adapters */,
+				8338E9C81C8BB874001F5BC0 /* Clases */,
+				8353EC7D1C8BA4230028F839 /* AppDelegate.h */,
+				8353EC7E1C8BA4230028F839 /* AppDelegate.m */,
+				8353EC831C8BA4230028F839 /* Main.storyboard */,
+				8353EC861C8BA4230028F839 /* Assets.xcassets */,
+				8353EC8B1C8BA4230028F839 /* Info.plist */,
+				8353EC7A1C8BA4230028F839 /* Supporting Files */,
+				8338E9C71C8BB855001F5BC0 /* Util */,
+			);
+			path = FocusMedia;
+			sourceTree = "<group>";
+		};
+		8353EC7A1C8BA4230028F839 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8338E9CF1C8BBBA3001F5BC0 /* FontAwesome.otf */,
+				8353EC7B1C8BA4230028F839 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8353EC931C8BA4240028F839 /* FocusMediaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8353EC941C8BA4240028F839 /* FocusMediaTests.m */,
+				8353EC961C8BA4240028F839 /* Info.plist */,
+			);
+			path = FocusMediaTests;
+			sourceTree = "<group>";
+		};
+		8353EC9E1C8BA4240028F839 /* FocusMediaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8353EC9F1C8BA4240028F839 /* FocusMediaUITests.m */,
+				8353ECA11C8BA4240028F839 /* Info.plist */,
+			);
+			path = FocusMediaUITests;
+			sourceTree = "<group>";
+		};
+		83C342341CAF7B5300841B4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83C3423A1CAF7B5400841B4C /* ASIHTTPRequest iPhone.app */,
+				83C3423C1CAF7B5400841B4C /* Tests.app */,
+				83C3423E1CAF7B5400841B4C /* ASIHTTPRequest iPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83DACF201CC90BB8000EFF27 /* Celdas */ = {
+			isa = PBXGroup;
+			children = (
+				83DACF261CC90C0E000EFF27 /* AgendaSimple.h */,
+				83DACF271CC90C0E000EFF27 /* AgendaSimple.m */,
+				83DACF281CC90C0E000EFF27 /* AgendaSimple.xib */,
+			);
+			path = Celdas;
+			sourceTree = "<group>";
+		};
+		83F08BA21C8E51C700DAB7E0 /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				83F08BA61C8E54F600DAB7E0 /* Model */,
+				83F08BA31C8E51FF00DAB7E0 /* AgendaAdapter.h */,
+				83F08BA41C8E51FF00DAB7E0 /* AgendaAdapter.m */,
+				83F08BC41C99E28300DAB7E0 /* CatalogoAdapter.h */,
+				83F08BC51C99E28300DAB7E0 /* CatalogoAdapter.m */,
+			);
+			path = Adapters;
+			sourceTree = "<group>";
+		};
+		83F08BA61C8E54F600DAB7E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				83F08BA71C8E552200DAB7E0 /* Dia.h */,
+				83F08BA81C8E552200DAB7E0 /* Dia.m */,
+				83F08BAA1C8E553800DAB7E0 /* Actividad.h */,
+				83F08BAB1C8E553800DAB7E0 /* Actividad.m */,
+				83F08BAD1C8E554300DAB7E0 /* Detalle.h */,
+				83F08BAE1C8E554300DAB7E0 /* Detalle.m */,
+				83F08BB01C8E583F00DAB7E0 /* Auspiciantes.h */,
+				83F08BB11C8E583F00DAB7E0 /* Auspiciantes.m */,
+				83F08BC71C99E29500DAB7E0 /* Empresa.h */,
+				83F08BC81C99E29500DAB7E0 /* Empresa.m */,
+				83F08BCA1C99E2A400DAB7E0 /* Asistentes.h */,
+				83F08BCB1C99E2A400DAB7E0 /* Asistentes.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B64844F0D207335F4EDB3DCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20E06CB01CFCAB41005C9129 /* libsqlite3.tbd */,
+				83C342431CAF7BA700841B4C /* libz.1.2.5.tbd */,
+				83C342411CAF7B7B00841B4C /* SystemConfiguration.framework */,
+				83C3423F1CAF7B5F00841B4C /* CFNetwork.framework */,
+				83C342331CAF7B5300841B4C /* iPhone.xcodeproj */,
+				E847F0D5288C2408D1B57C14 /* libPods-FocusMedia.a */,
+				C3F3CDBE7ED6674D7E2CE5EF /* libPods-FocusMediaTests.a */,
+				9504C4E480A48FAAAAF36495 /* libPods-FocusMediaUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8353EC761C8BA4230028F839 /* FocusMedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8353ECA41C8BA4240028F839 /* Build configuration list for PBXNativeTarget "FocusMedia" */;
+			buildPhases = (
+				549B61FFEEFCDD8C39BAEA95 /* [CP] Check Pods Manifest.lock */,
+				8353EC731C8BA4230028F839 /* Sources */,
+				8353EC741C8BA4230028F839 /* Frameworks */,
+				8353EC751C8BA4230028F839 /* Resources */,
+				6788F72BD2BBA19EA1C85296 /* [CP] Embed Pods Frameworks */,
+				F1EBA022A3D6B351D679EBFD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FocusMedia;
+			productName = FocusMedia;
+			productReference = 8353EC771C8BA4230028F839 /* FocusMedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8353EC8F1C8BA4240028F839 /* FocusMediaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8353ECA71C8BA4240028F839 /* Build configuration list for PBXNativeTarget "FocusMediaTests" */;
+			buildPhases = (
+				4EFA23E38BA8A9068FE5D597 /* [CP] Check Pods Manifest.lock */,
+				8353EC8C1C8BA4240028F839 /* Sources */,
+				8353EC8D1C8BA4240028F839 /* Frameworks */,
+				8353EC8E1C8BA4240028F839 /* Resources */,
+				3F6854174B80B462FBCAA65E /* [CP] Embed Pods Frameworks */,
+				E1FE72725DA3E324B909A56D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8353EC921C8BA4240028F839 /* PBXTargetDependency */,
+			);
+			name = FocusMediaTests;
+			productName = FocusMediaTests;
+			productReference = 8353EC901C8BA4240028F839 /* FocusMediaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8353EC9A1C8BA4240028F839 /* FocusMediaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8353ECAA1C8BA4240028F839 /* Build configuration list for PBXNativeTarget "FocusMediaUITests" */;
+			buildPhases = (
+				73E37D6790ED2DDB41481244 /* [CP] Check Pods Manifest.lock */,
+				8353EC971C8BA4240028F839 /* Sources */,
+				8353EC981C8BA4240028F839 /* Frameworks */,
+				8353EC991C8BA4240028F839 /* Resources */,
+				ED97374608563E7513C76DAF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8353EC9D1C8BA4240028F839 /* PBXTargetDependency */,
+			);
+			name = FocusMediaUITests;
+			productName = FocusMediaUITests;
+			productReference = 8353EC9B1C8BA4240028F839 /* FocusMediaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8353EC6F1C8BA4230028F839 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "No Fue Magia";
+				TargetAttributes = {
+					8353EC761C8BA4230028F839 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 464S895A3E;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					8353EC8F1C8BA4240028F839 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 8353EC761C8BA4230028F839;
+					};
+					8353EC9A1C8BA4240028F839 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 8353EC761C8BA4230028F839;
+					};
+				};
+			};
+			buildConfigurationList = 8353EC721C8BA4230028F839 /* Build configuration list for PBXProject "FocusMedia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8353EC6E1C8BA4230028F839;
+			productRefGroup = 8353EC781C8BA4230028F839 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 83C342341CAF7B5300841B4C /* Products */;
+					ProjectRef = 83C342331CAF7B5300841B4C /* iPhone.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8353EC761C8BA4230028F839 /* FocusMedia */,
+				8353EC8F1C8BA4240028F839 /* FocusMediaTests */,
+				8353EC9A1C8BA4240028F839 /* FocusMediaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		83C3423A1CAF7B5400841B4C /* ASIHTTPRequest iPhone.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "ASIHTTPRequest iPhone.app";
+			remoteRef = 83C342391CAF7B5400841B4C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		83C3423C1CAF7B5400841B4C /* Tests.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Tests.app;
+			remoteRef = 83C3423B1CAF7B5400841B4C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		83C3423E1CAF7B5400841B4C /* ASIHTTPRequest iPad.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "ASIHTTPRequest iPad.app";
+			remoteRef = 83C3423D1CAF7B5400841B4C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8353EC751C8BA4230028F839 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201C7FE91D007B25009EE8ED /* notificaciones.db in Resources */,
+				8353EC871C8BA4230028F839 /* Assets.xcassets in Resources */,
+				8353EC851C8BA4230028F839 /* Main.storyboard in Resources */,
+				83C563381CA83EC3005FB6E5 /* GoogleService-Info.plist in Resources */,
+				83145DB61CD2CD690025ADFF /* focus-footer.png in Resources */,
+				83DACF2A1CC90C0E000EFF27 /* AgendaSimple.xib in Resources */,
+				83F08B8C1C8CAED800DAB7E0 /* Recursos in Resources */,
+				8338E9D01C8BBBA3001F5BC0 /* FontAwesome.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8353EC8E1C8BA4240028F839 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8353EC991C8BA4240028F839 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F6854174B80B462FBCAA65E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FocusMediaTests/Pods-FocusMediaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EFA23E38BA8A9068FE5D597 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		549B61FFEEFCDD8C39BAEA95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6788F72BD2BBA19EA1C85296 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FocusMedia/Pods-FocusMedia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73E37D6790ED2DDB41481244 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E1FE72725DA3E324B909A56D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FocusMediaTests/Pods-FocusMediaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED97374608563E7513C76DAF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FocusMediaUITests/Pods-FocusMediaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1EBA022A3D6B351D679EBFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FocusMedia/Pods-FocusMedia-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8353EC731C8BA4230028F839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F08BB51C8F885400DAB7E0 /* AgendaCell.m in Sources */,
+				83C563331CA82D38005FB6E5 /* CatalogoInformacion.m in Sources */,
+				83DACF291CC90C0E000EFF27 /* AgendaSimple.m in Sources */,
+				8353EC7F1C8BA4230028F839 /* AppDelegate.m in Sources */,
+				83F08BBD1C91EB4D00DAB7E0 /* DetalleCell.m in Sources */,
+				83F08BC61C99E28300DAB7E0 /* CatalogoAdapter.m in Sources */,
+				8353EC7C1C8BA4230028F839 /* main.m in Sources */,
+				204FA5ED1CFCBE8100FE3993 /* DBManager.m in Sources */,
+				83F08BB21C8E583F00DAB7E0 /* Auspiciantes.m in Sources */,
+				83F08B9E1C8E173100DAB7E0 /* Planos.m in Sources */,
+				83F08BA91C8E552200DAB7E0 /* Dia.m in Sources */,
+				83F08B8F1C8CDF1200DAB7E0 /* NavigationMenu.m in Sources */,
+				83F08B951C8CEE1600DAB7E0 /* MenuItem.m in Sources */,
+				83F08BAC1C8E553800DAB7E0 /* Actividad.m in Sources */,
+				83F08BCF1C99EA3E00DAB7E0 /* Catalogo.m in Sources */,
+				83F08B981C8D2ABD00DAB7E0 /* Bienvenida.m in Sources */,
+				83F08BC91C99E29500DAB7E0 /* Empresa.m in Sources */,
+				83F08BAF1C8E554300DAB7E0 /* Detalle.m in Sources */,
+				83F08BCC1C99E2A400DAB7E0 /* Asistentes.m in Sources */,
+				83C563361CA82D38005FB6E5 /* AsistentesCell.m in Sources */,
+				8338E9CE1C8BB95A001F5BC0 /* SharedNavigationController.m in Sources */,
+				83F08B9B1C8D2FC800DAB7E0 /* Utiles.m in Sources */,
+				83F08BA11C8E48CD00DAB7E0 /* Agenda.m in Sources */,
+				204FA5EA1CFCB66D00FE3993 /* Notificaciones.m in Sources */,
+				8338E9CB1C8BB899001F5BC0 /* Home.m in Sources */,
+				83C563341CA82D38005FB6E5 /* CatalogoAsistentes.m in Sources */,
+				83DACF1F1CC6EA64000EFF27 /* Publicidades.m in Sources */,
+				83F08B8A1C8CAD1700DAB7E0 /* Header.m in Sources */,
+				83F08BA51C8E51FF00DAB7E0 /* AgendaAdapter.m in Sources */,
+				83C563321CA82D38005FB6E5 /* CatalogoNovedades.m in Sources */,
+				83C563351CA82D38005FB6E5 /* BajarYDescomprimir.m in Sources */,
+				83F08BBA1C91C0C200DAB7E0 /* AgendaDetalle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8353EC8C1C8BA4240028F839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8353EC951C8BA4240028F839 /* FocusMediaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8353EC971C8BA4240028F839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8353ECA01C8BA4240028F839 /* FocusMediaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8353EC921C8BA4240028F839 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8353EC761C8BA4230028F839 /* FocusMedia */;
+			targetProxy = 8353EC911C8BA4240028F839 /* PBXContainerItemProxy */;
+		};
+		8353EC9D1C8BA4240028F839 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8353EC761C8BA4230028F839 /* FocusMedia */;
+			targetProxy = 8353EC9C1C8BA4240028F839 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8353EC831C8BA4230028F839 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8353EC841C8BA4230028F839 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8353ECA21C8BA4240028F839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8353ECA31C8BA4240028F839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8353ECA51C8BA4240028F839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D54F7C40E392D1E2DF40E90 /* Pods-FocusMedia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = FocusMedia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.focusmedia.brand100;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		8353ECA61C8BA4240028F839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D179B2FE75B7C1DFCFD4CCA /* Pods-FocusMedia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = FocusMedia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.focusmedia.brand100;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		8353ECA81C8BA4240028F839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F688CE6337BD71C9729123D0 /* Pods-FocusMediaTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FocusMediaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NoFueMagia.FocusMediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FocusMedia.app/FocusMedia";
+			};
+			name = Debug;
+		};
+		8353ECA91C8BA4240028F839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD82337C0FD5AE5505CEE157 /* Pods-FocusMediaTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FocusMediaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NoFueMagia.FocusMediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FocusMedia.app/FocusMedia";
+			};
+			name = Release;
+		};
+		8353ECAB1C8BA4240028F839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DE73EEBF9CB2E558140DD69 /* Pods-FocusMediaUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = FocusMediaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NoFueMagia.FocusMediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FocusMedia;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8353ECAC1C8BA4240028F839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AA194CEED87B4AF60A6DB78 /* Pods-FocusMediaUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = FocusMediaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NoFueMagia.FocusMediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FocusMedia;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8353EC721C8BA4230028F839 /* Build configuration list for PBXProject "FocusMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8353ECA21C8BA4240028F839 /* Debug */,
+				8353ECA31C8BA4240028F839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8353ECA41C8BA4240028F839 /* Build configuration list for PBXNativeTarget "FocusMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8353ECA51C8BA4240028F839 /* Debug */,
+				8353ECA61C8BA4240028F839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8353ECA71C8BA4240028F839 /* Build configuration list for PBXNativeTarget "FocusMediaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8353ECA81C8BA4240028F839 /* Debug */,
+				8353ECA91C8BA4240028F839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8353ECAA1C8BA4240028F839 /* Build configuration list for PBXNativeTarget "FocusMediaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8353ECAB1C8BA4240028F839 /* Debug */,
+				8353ECAC1C8BA4240028F839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8353EC6F1C8BA4230028F839 /* Project object */;
+}
